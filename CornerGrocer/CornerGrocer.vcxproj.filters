@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{F3327A2C-5C43-4B5B-9444-E3700DD7E2BB}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{6F486D62-85E0-4A29-81C4-03A8DBEED989}</UniqueIdentifier></Filter>
+    <Filter Include="Resource Files"><UniqueIdentifier>{B13A44CE-3568-4862-81C4-F2676A04A2FB}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="GroceryTracker.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup><ClInclude Include="GroceryTracker.h"><Filter>Header Files</Filter></ClInclude></ItemGroup>
+  <ItemGroup>
+    <None Include="CS210_Project_Three_Input_File.txt"><Filter>Resource Files</Filter></None>
+    <None Include="frequency.dat"><Filter>Resource Files</Filter></None>
+  </ItemGroup>
+</Project>
